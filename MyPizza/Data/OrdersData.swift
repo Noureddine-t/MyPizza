@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct OrdersData: Codable, Identifiable, Hashable {
+struct OrdersData: Codable, Hashable {
     var recipe:String
     var dough: String
     var orderDate: String

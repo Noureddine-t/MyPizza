@@ -21,8 +21,3 @@ struct OrdersCellView: View {
         .padding()
     }
 }
-
-#Preview {
-    OrdersCellView(orders: orders)
-}
-

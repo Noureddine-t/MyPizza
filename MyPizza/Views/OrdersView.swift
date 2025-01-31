@@ -40,8 +40,8 @@ struct OrdersView: View {
                 .foregroundStyle(.white)
                 
             
-            List(orders) { order in
-                OrdersCellView(orders: order)
+            List(orders.indices, id:\.self) { index in
+                OrdersCellView(orders: orders[index])
             }.onAppear {
                 getOrders()
                 print("Orders après récupération : \(orders)")
