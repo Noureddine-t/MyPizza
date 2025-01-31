@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OrdersCellView: View {
-    var orders = OrdersData(recipe: "", dough: "", orderDate: "")
+    var orders : OrdersData
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
@@ -16,7 +16,11 @@ struct OrdersCellView: View {
                 Text(orders.dough)
             }
             Spacer()
-            Text(orders.orderDate)
+            VStack(alignment: .trailing){
+                let dateComponents = orders.orderDate.split(separator:" ")
+                Text(dateComponents[0])
+                Text(dateComponents[1])
+            }
         }
         .padding()
     }
