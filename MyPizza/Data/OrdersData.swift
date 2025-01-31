@@ -7,7 +7,6 @@
 
 import Foundation
 struct OrdersData: Codable, Identifiable, Hashable {
-    var id : Int
     var recipe:String
     var dough: String
     var orderDate: String

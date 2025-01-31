@@ -40,7 +40,7 @@ struct OrdersView: View {
                 .foregroundStyle(.white)
                 
             
-            List(orders, id: \.id) { order in
+            List(orders) { order in
                 OrdersCellView(orders: order)
             }.onAppear {
                 getOrders()

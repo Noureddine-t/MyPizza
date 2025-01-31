@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OrdersCellView: View {
-    var orders = OrdersData(id: 0,recipe: "", dough: "", orderDate: "")
+    var orders = OrdersData(recipe: "", dough: "", orderDate: "")
     var body: some View {
         HStack {
             VStack(alignment: .leading) {
@@ -22,4 +22,7 @@ struct OrdersCellView: View {
     }
 }
 
+#Preview {
+    OrdersCellView(orders: orders)
+}
 
