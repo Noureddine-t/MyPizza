@@ -28,7 +28,6 @@
 		CC28C3E12D3E37DE00E0421E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28C3E02D3E37DE00E0421E /* APIService.swift */; };
 		CC28C3E32D3E380600E0421E /* Data + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28C3E22D3E380600E0421E /* Data + Extensions.swift */; };
 		CC28C3E52D3E383300E0421E /* Dictionary + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28C3E42D3E383300E0421E /* Dictionary + Extensions.swift */; };
-		CC28C3E72D3E392000E0421E /* OrdersTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC28C3E62D3E392000E0421E /* OrdersTesting.swift */; };
 		CC57397B2D390FF30087A8AB /* OrdersCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57397A2D390FF30087A8AB /* OrdersCellView.swift */; };
 		CC57397D2D3910CF0087A8AB /* DoughData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC57397C2D3910CF0087A8AB /* DoughData.swift */; };
 /* End PBXBuildFile section */
@@ -75,7 +74,6 @@
 		CC28C3E02D3E37DE00E0421E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		CC28C3E22D3E380600E0421E /* Data + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + Extensions.swift"; sourceTree = "<group>"; };
 		CC28C3E42D3E383300E0421E /* Dictionary + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + Extensions.swift"; sourceTree = "<group>"; };
-		CC28C3E62D3E392000E0421E /* OrdersTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTesting.swift; sourceTree = "<group>"; };
 		CC57397A2D390FF30087A8AB /* OrdersCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersCellView.swift; sourceTree = "<group>"; };
 		CC57397C2D3910CF0087A8AB /* DoughData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +173,6 @@
 				CC26E80E2D38EBC9003FA746 /* OrderData.swift */,
 				CC28C3D22D3E339900E0421E /* TokenData.swift */,
 				CC28C3D42D3E33B400E0421E /* RegisterStatus.swift */,
-				CC28C3E62D3E392000E0421E /* OrdersTesting.swift */,
 				CC0C3CEF2D3E607300B66F8D /* TokenSave.swift */,
 			);
 			path = Data;
@@ -357,7 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC26E8232D38EF56003FA746 /* OrdersView.swift in Sources */,
-				CC28C3E72D3E392000E0421E /* OrdersTesting.swift in Sources */,
 				CC28C3E12D3E37DE00E0421E /* APIService.swift in Sources */,
 				CC28C3D52D3E33B400E0421E /* RegisterStatus.swift in Sources */,
 				CC26E8092D38EA5E003FA746 /* RegisterData.swift in Sources */,
@@ -566,6 +562,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

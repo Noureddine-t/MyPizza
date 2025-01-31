@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct RecipeData : Identifiable, Codable {
     var id: Int
     var name: String
